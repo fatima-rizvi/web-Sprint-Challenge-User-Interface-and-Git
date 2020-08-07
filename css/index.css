@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
 }
 
 html, body {
@@ -93,7 +91,7 @@ nav a {
 
 .links {
     display: flex;
-    width: 43%;
+    width: 42%;
 }
 
 .links nav {
@@ -208,8 +206,9 @@ nav a {
 }
 
 .about-section {
-    margin: 2%;
-    border-bottom: 3px dotted black;
+    margin: 0 2% 2%;
+    padding: 0 0 2%;
+    border-bottom: 1px dashed black;
 }
 
 .long-section {
@@ -233,7 +232,7 @@ nav a {
     text-align: left;
     margin: 1%;
     align-items: center;
-    border-bottom: 3px dotted black;
+    border-bottom: 1px dashed black;
 }
 
 .square-section a {
