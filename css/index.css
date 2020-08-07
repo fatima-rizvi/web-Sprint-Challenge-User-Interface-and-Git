@@ -107,7 +107,7 @@ nav a {
     margin: 2% 0 0;
 }
 
-.container {
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -205,6 +205,32 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-section {
+    margin: 1%;
+    border-bottom: 1px dotted black;
+}
+
+.about-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.square-section {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.square-section img {
+   display: flex; 
+   max-width: 100%;
 }
 
 footer {
