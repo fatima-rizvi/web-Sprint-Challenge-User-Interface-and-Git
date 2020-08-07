@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -66,7 +65,47 @@ p {
     line-height: 1.4;
 }
 
-.container {
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1% 0;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.logo img {
+    max-width: 100%;
+    height: 40px;
+}
+
+.links {
+    display: flex;
+    width: 42%;
+}
+
+.links nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.header-image {
+    margin: 2% 0 0;
+}
+
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -112,6 +151,46 @@ p {
     justify-content: center;
 }
 
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +203,54 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-section {
+    margin: 0 2% 2%;
+    padding: 0 0 2%;
+    border-bottom: 1px dashed black;
+}
+
+.long-section {
+    margin: 4% 2%;
+    border: none;
+}
+
+.about-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.square-section {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 1%;
+    align-items: center;
+    border-bottom: 1px dashed black;
+}
+
+.square-section a {
+    margin: 3% 0;
+    padding: 2% 5%;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.square-section h2 {
+    margin: 3% 0;
+}
+
+.square-section img {
+   display: flex; 
+   max-width: 100%;
 }
 
 footer {
